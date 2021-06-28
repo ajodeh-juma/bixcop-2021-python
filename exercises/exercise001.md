@@ -1,4 +1,46 @@
-##### 1. Finding Base Frequencies
+<details>
+  <summary>Counting DNA Nucleotides!</summary>
+  
+**Problem**
+A string is simply an ordered collection of symbols selected from 
+some alphabet and formed into a word; the length of a string is the 
+number of symbols that it contains.
+
+An example of a length 21 DNA string (whose alphabet contains the 
+symbols ```A```, ```C```, ```G```, and ```T```) is 
+```ATGCTTCAGAAAGGTCTTACG```.
+
+Given: A DNA string _s_ of length at most 1000 nt.
+
+Return: Four integers (separated by spaces) counting the 
+respective number of times that the symbols ```A```, ```C```, ```G```, 
+and ```T``` occur in _s_.
+
+**Sample Dataset**
+```AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC```
+
+**Sample Output** <br>
+```20 12 17 21```
+
+</details>
+
+
+##### 2. Transcribing DNA to RNA
+
+An RNA string is a string formed from the alphabet containing ```A```, ```C```, 
+```G```, and ```U```.
+Given a DNA string _t_ corresponding to a coding strand, 
+its transcribed RNA string _u_ is formed by replacing all 
+occurrences of ```T``` in _t_ with ```U``` in _u_.
+
+##### Given: 
+A DNA string _t_ having length at most 1000 nt.
+For example, given the dataset ```GATGGAACTTGACTACGTAAATT```, the function
+should return ```GAUGGAACUUGACUACGUAAAUU```
+##### Return: 
+The transcribed RNA string of _t_
+
+##### 3. Finding Base Frequencies
 
 DNA consists of four molecules called nucleotides, or bases, and can be 
 represented as a string of the letters ```A```, ```C```, ```G```, 
@@ -33,20 +75,5 @@ If unable to access the file, get it from [here](https://github.com/ajodeh-juma/
 ##### Reporting
 Report your output as:<br>
 ```A: 0.1```<br>```C: 0.2```<br>```G: 0.2```<br>```T: 0.5```
-
-##### 2. Transcribing DNA to RNA
-
-An RNA string is a string formed from the alphabet containing ```A```, ```C```, 
-```G```, and ```U```.
-Given a DNA string _t_ corresponding to a coding strand, 
-its transcribed RNA string _u_ is formed by replacing all 
-occurrences of ```T``` in _t_ with ```U``` in _u_.
-
-##### Given: 
-A DNA string _t_ having length at most 1000 nt.
-For example, given the dataset ```GATGGAACTTGACTACGTAAATT```, the function
-should return ```GAUGGAACUUGACUACGUAAAUU```
-##### Return: 
-The transcribed RNA string of _t_
  
 
