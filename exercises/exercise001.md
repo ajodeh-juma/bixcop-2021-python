@@ -33,7 +33,6 @@ If unable to access the file, get it from [here](https://github.com/ajodeh-juma/
 #### Reporting
 Report your output as:<br>
 ```A: 0.1```<br>```C: 0.2```<br>```G: 0.2```<br>```T: 0.5```
-``````
 
 ##### 2. Transcribing DNA to RNA
  
