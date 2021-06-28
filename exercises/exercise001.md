@@ -82,5 +82,54 @@ If unable to access the file, get it from [here](https://github.com/ajodeh-juma/
 Report your output as:<br>
 ```A: 0.1```<br>```C: 0.2```<br>```G: 0.2```<br>```T: 0.5```
 </details>
+
+<details>
+  <summary>Parsing GenBank format</summary>
+  
+**Problem**.  
+GenBank format (GenBank Flat File Format) consists of an 
+annotation section and a sequence section. The start of the annotation 
+section is marked by a line beginning with the word ```LOCUS```. 
+The start of sequence section is marked by a line beginning with the 
+word ```ORIGIN``` and the end of the section is marked by a 
+line with only ```//```.  
+Explore a sample genbank file [here](https://www.ncbi.nlm.nih.gov/nuccore/X81322)
+
+**Instructions**.  
+Fetch the ```argonaut.gbk``` file []()
+
+**Tasks**.  
+1. Write a Python script that parses the GenBank file and performs:  
+    * computes sequence records lengths
+    * computes GC content
+    * reports statistics in an ordered table
+2. Use some functionality from the ```BioPython``` package to retrieve the records from GenBank in GenBank format.  
+    * Retrieve records for the accessions given in the file [ebov_accessions.txt]() using BioPython Entrez module
+    
+
+**Output(s)**.  
+- Print a tab-delimited table of accession number, organism name, %GC content, sequence length
+- Print the label and sequence of the shortest sequence in FASTA format
+
+**Sample Output**.  
+```NM_179453    Arabidopsis thaliana    45.54   3507```.  
+```NM_001130718 Strongylocentrotus purpuratus   52.96   2868```.  
+```>NM_166020  Drosophila melanogaster ACAGTGCGGAGTGTTTGTTACATGTTAGAGCGTATATATATTTTGAAAAGAGCAGCGACGCCGCCTCAAACCACCGACTAAAATGTCCACGGAGCGTGAGCT```
+
+**Hints**
+- Use the Entrez.efetch() function to retrieve the sequences in GenBank format (database “nucleotides”)
+- As alternative for your own parser you can also experiment with the Bio.SeqIO.parse() function
+- Search field descriptions for sequence database: http://www.ncbi.nlm.nih.gov/books/NBK49540/
+
+**Example**.  
+```>>>from Bio import Entrez
+>>>Entrez.email = "your_name@your_mail_server.com" 
+>>>handle = Entrez.efetch(db="nucleotide", id=["FJ817486, JX069768, JX469983"], rettype="fasta") 
+>>>records = handle.read()
+>>>print records
+```
+</details>
+
+
  
 
