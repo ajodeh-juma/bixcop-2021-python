@@ -45,7 +45,7 @@ Return: The transcribed RNA string of _t_
 </details>
 
 <details>
-   <summary>Finding Base Frequencies</summary>summary>
+  <summary>Finding Base Frequencies</summary>
 
 **Problem**
 DNA consists of four molecules called nucleotides, or bases, and can be 
