@@ -47,7 +47,7 @@ Return: The transcribed RNA string of _t_
 <details>
   <summary>Finding Base Frequencies</summary>
 
-**Problem**
+**Problem**.  
 DNA consists of four molecules called nucleotides, or bases, and can be 
 represented as a string of the letters ```A```, ```C```, ```G```, 
 and ```T```. But this does not 
