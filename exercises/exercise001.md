@@ -44,6 +44,8 @@ occurrences of ```T``` in _t_ with ```U``` in _u_.
 
 ##### Given: 
 A DNA string _t_ having length at most 1000 nt.
+For example, given the dataset ```GATGGAACTTGACTACGTAAATT```, the function
+should return ```GAUGGAACUUGACUACGUAAAUU```
 ##### Return: 
 The transcribed RNA string of _t_
  
