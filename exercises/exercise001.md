@@ -19,7 +19,7 @@ and ```T``` occur in _s_.
 **Sample Dataset**
 ```AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC```
 
-**Sample Output** <br>
+**Sample Output**.  
 ```20 12 17 21```
 
 </details>
@@ -33,12 +33,15 @@ Given a DNA string _t_ corresponding to a coding strand,
 its transcribed RNA string _u_ is formed by replacing all 
 occurrences of ```T``` in _t_ with ```U``` in _u_.
 
-##### Given: 
-A DNA string _t_ having length at most 1000 nt.
-For example, given the dataset ```GATGGAACTTGACTACGTAAATT```, the function
-should return ```GAUGGAACUUGACUACGUAAAUU```
-##### Return: 
-The transcribed RNA string of _t_
+Given: A DNA string _t_ having length at most 1000 nt.
+Return: The transcribed RNA string of _t_
+
+**Sample Dataset**.  
+```GATGGAACTTGACTACGTAAATT```
+
+**Sample Output**.  
+```GAUGGAACUUGACUACGUAAAUU```
+
 
 ##### 3. Finding Base Frequencies
 
