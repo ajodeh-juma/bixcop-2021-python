@@ -26,7 +26,7 @@ if the DNA string is ```ACGGAAA```, the length is 7, ```A``` appears
 frequency is 0.
 
 #### Instructions
-- Obtain the [yeast chromosome 1 sequence] (http://sgd-archive.yeastgenome.org/sequence/S288C_reference/chromosomes/fasta/chr01.fsa)
+- Obtain the [yeast chromosome 1 sequence](http://sgd-archive.yeastgenome.org/sequence/S288C_reference/chromosomes/fasta/chr01.fsa)
 If unable to access the file, get it from [here](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/modules/python/data/test/chr01.fsa)
 - Write function(s) to compute the base frequencies.
 
