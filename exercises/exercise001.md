@@ -166,7 +166,7 @@ CATCGTAATGACGGCCT
 ```7```
 
 ##### Instructions
-- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/gc_dataset.txt),
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/hamm_dataset.txt),
 - Write a function to print the output
 </details>
 
