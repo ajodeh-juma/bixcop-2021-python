@@ -209,10 +209,11 @@ If unable to access the file, get it from [here](https://github.com/ajodeh-juma/
 - Write function(s) to compute the base frequencies.
 
 **Sample Output**.  
-Report your output as:<br>
+(Note that the numbers in this output are made up. The numbers in your output will be different!).  
+
 ```A: 0.1```<br>```C: 0.2```<br>```G: 0.2```<br>```T: 0.5```.  
 
-The above output are made up numbers
+
 </details>
 
 <details>
