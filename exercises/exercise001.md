@@ -272,7 +272,10 @@ Quality control of the produced reads is a necessary step before any downstream 
 such as assembly or mapping. Typically, the average quality at the 3’ end of 
 the reads is lower than at the 5’ end of the read, caused by the 
 chemistry and process of sequencing. When plotting the ```per-base quality``` 
-for all reads in a FASTQ file, a typical pattern looks like this:
+for all reads in a FASTQ file, a typical pattern looks like this:  
+
+![Figure 2](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/images/per_base_quality.png).  
+
 
 In this assignment you will calculate the average quality score at each position of the read, 
 use a command line tool to ```trim``` off low-quality bases, and assess whether the average per-base quality has improved.
