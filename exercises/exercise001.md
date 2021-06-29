@@ -75,7 +75,7 @@ appear so the frequency is 0.
 
 ##### Instructions
 - Obtain the [yeast chromosome 1 sequence](http://sgd-archive.yeastgenome.org/sequence/S288C_reference/chromosomes/fasta/chr01.fsa),
-If unable to access the file, get it from [here](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/modules/python/data/test/chr01.fsa)
+If unable to access the file, get it from [here](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/chr01.fsa)
 - Write function(s) to compute the base frequencies.
 
 **Sample Output**.  
@@ -96,7 +96,7 @@ line with only ```//```.
 Explore a sample genbank file [here](https://www.ncbi.nlm.nih.gov/nuccore/X81322)
 
 **Instructions**.  
-Fetch the ```argonaut.gbk``` file []()
+Fetch the ```argonaut.gbk``` [here](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/argonaut.gb)
 
 **Tasks**.  
 1. Write a Python script that parses the GenBank file and performs:  
@@ -104,7 +104,8 @@ Fetch the ```argonaut.gbk``` file []()
     * computes GC content
     * reports statistics in an ordered table
 2. Use some functionality from the ```BioPython``` package to retrieve the records from GenBank in GenBank format.  
-    * Retrieve records for the accessions given in the file [ebov_accessions.txt]() using BioPython Entrez module
+    * Retrieve records for the accessions given in the file [ebov_accessions.txt](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/ebov_accessions.txt) 
+    using BioPython Entrez module
     
 
 **Output(s)**.  
@@ -159,8 +160,8 @@ the read. In the raw FASTQ file all sequences have the same length. When calcula
 6. Report the minimum, maximum, average sequence length for both the original FASTQ file, and the trimmed FASTQ file.
 7. For each read position, report the average quality score in the original file, the average quality score in the trimmed file, and the improvement in average quality, in tab-delimited columns.
 Input
-A FASTQ file containing 10000 records. It is a sample of genomic reads from a tomato plant. 
-Use the command wget to download the file from this location: http://www.bioinformatics.nl/courses/BIF-30806/docs/tomatosample.fq
+A FASTQ file containing 10000 records. It is a sample of genomic reads from a tomato plant.  
+Use the command wget to download the file from this location: [here](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/tomatosample.fq).  
 For development purposes or if you fail to get step 4 working, 
 a trimmed FASTQ file is also provided: http://www.bioinformatics.nl/courses/BIF-30806/docs/trimmedsample.fq
 
