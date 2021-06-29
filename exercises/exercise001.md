@@ -211,7 +211,7 @@ If unable to access the file, get it from [here](https://github.com/ajodeh-juma/
 **Sample Output**.  
 (Note that the numbers in this output are made up. The numbers in your output will be different!).  
 
-```A: 0.1```<br>```C: 0.2```<br>```G: 0.2```<br>```T: 0.5```.  
+```A: 0.112647```<br>```C: 0.223456```<br>```G: 0.212356```<br>```T: 0.501349```.  
 
 
 </details>
