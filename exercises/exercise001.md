@@ -80,7 +80,9 @@ If unable to access the file, get it from [here](https://github.com/ajodeh-juma/
 
 **Sample Output**.  
 Report your output as:<br>
-```A: 0.1```<br>```C: 0.2```<br>```G: 0.2```<br>```T: 0.5```
+```A: 0.1```<br>```C: 0.2```<br>```G: 0.2```<br>```T: 0.5```.  
+
+The above output are made up numbers
 </details>
 
 <details>
@@ -97,6 +99,7 @@ Explore a sample genbank file [here](https://www.ncbi.nlm.nih.gov/nuccore/X81322
 
 **Instructions**.  
 Fetch the ```argonaut.gbk``` [here](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/argonaut.gb)
+using the ```wget``` command.
 
 **Tasks**.  
 1. Write a Python script that parses the GenBank file and performs:  
@@ -161,7 +164,7 @@ the read. In the raw FASTQ file all sequences have the same length. When calcula
 7. For each read position, report the average quality score in the original file, the average quality score in the trimmed file, and the improvement in average quality, in tab-delimited columns.
 Input
 A FASTQ file containing 10000 records. It is a sample of genomic reads from a tomato plant.  
-Use the command wget to download the file from this location: [here](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/tomatosample.fq).  
+Use the command ```wget``` to download the file from this location: [here](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/tomatosample.fq).  
 For development purposes or if you fail to get step 4 working, 
 a trimmed FASTQ file is also provided: http://www.bioinformatics.nl/courses/BIF-30806/docs/trimmedsample.fq
 
