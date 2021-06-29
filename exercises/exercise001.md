@@ -46,7 +46,7 @@ and ```T``` occur in _s_.
 ```20 12 17 21```
 
 ##### Instructions
-- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/dna_dataset.txt),
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/dna_dataset.txt),
 - Write a function to print the output
 </details>
 
@@ -71,7 +71,7 @@ occurrences of ```T``` in _t_ with ```U``` in _u_.
 ```GAUGGAACUUGACUACGUAAAUU```
 
 ##### Instructions
-- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/rna_dataset.txt),
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/rna_dataset.txt),
 - Write a function to print the output
 </details>
 
@@ -95,7 +95,7 @@ then taking the complement of each symbol (e.g., the reverse complement of ```GT
 ```ACCGGGTTTT```
 
 ##### Instructions
-- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/revc_dataset.txt),
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/revc_dataset.txt),
 - Write a function to print the output
 </details>
 
@@ -137,7 +137,7 @@ Rosalind_0808
 ```
 
 ##### Instructions
-- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/gc_dataset.txt),
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/gc_dataset.txt),
 - Write a function to print the output
 </details>
 
@@ -149,7 +149,7 @@ Rosalind_0808
 Given two strings _s_ and _t_ of equal length, the Hamming distance between _s_ and _t_, 
 denoted _d_<sub>H</sub>(_s_,_t_), is the number of corresponding symbols that differ in _s_ and _t_, see the figure below.  
  
-![Figure 2](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/images/Hamming_distance.png).  
+![Figure 2](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/images/Hamming_distance.png).  
 
 Given: Two DNA strings _s_ and _t_ of equal length (not exceeding 1 kbp).
 
@@ -167,7 +167,7 @@ CATCGTAATGACGGCCT
 ```7```
 
 ##### Instructions
-- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/hamm_dataset.txt),
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/hamm_dataset.txt),
 - Write a function to print the output
 </details>
 
@@ -203,7 +203,7 @@ appear so the frequency is 0.
 
 ##### Instructions
 - Obtain the [yeast chromosome 1 sequence](http://sgd-archive.yeastgenome.org/sequence/S288C_reference/chromosomes/fasta/chr01.fsa),
-If unable to access the file, get it from [here](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/chr01.fsa)
+If unable to access the file, get it from [here](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/chr01.fsa)
 - Write function(s) to compute the base frequencies.
 
 **Sample Output**.  
@@ -226,7 +226,7 @@ line with only ```//```.
 Explore a sample genbank file [here](https://www.ncbi.nlm.nih.gov/nuccore/X81322)
 
 **Instructions**.  
-Fetch the ```argonaut.gbk``` [here](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/argonaut.gb)
+Fetch the ```argonaut.gbk``` [here](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/argonaut.gb)
 using the ```wget``` command.
 
 **Tasks**.  
@@ -235,7 +235,7 @@ using the ```wget``` command.
     * computes GC content
     * reports statistics in an ordered table
 2. Use some functionality from the ```BioPython``` package to retrieve the records from GenBank in GenBank format.  
-    * Retrieve records for the accessions given in the file [ebov_accessions.txt](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/ebov_accessions.txt) 
+    * Retrieve records for the accessions given in the file [ebov_accessions.txt](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/ebov_accessions.txt) 
     using BioPython Entrez module
     
 
@@ -275,7 +275,7 @@ the reads is lower than at the 5’ end of the read, caused by the
 chemistry and process of sequencing. When plotting the ```per-base quality``` 
 for all reads in a FASTQ file, a typical pattern looks like this:  
 
-![Figure 2](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/images/per_base_quality.png).  
+![Figure 2](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/images/per_base_quality.png).  
 
 
 In this assignment you will calculate the average quality score at each position of the read, 
@@ -295,7 +295,7 @@ the read. In the raw FASTQ file all sequences have the same length. When calcula
 7. For each read position, report the average quality score in the original file, the average quality score in the trimmed file, and the improvement in average quality, in tab-delimited columns.
 Input
 A FASTQ file containing 10000 records. It is a sample of genomic reads from a tomato plant.  
-Use the command ```wget``` to download the file [here](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/tomatosample.fq).  
+Use the command ```wget``` to download the file [here](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/tomatosample.fq).  
 For development purposes or if you fail to get step 4 working, 
 a trimmed FASTQ file is also provided: http://www.bioinformatics.nl/courses/BIF-30806/docs/trimmedsample.fq
 
