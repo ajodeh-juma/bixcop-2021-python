@@ -240,7 +240,8 @@ using the ```wget``` command.
 2. Use some functionality from the ```BioPython``` package to retrieve the records from GenBank in GenBank format.  
     * Retrieve records for the accessions given in the file [ebov_accessions.txt](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/ebov_accessions.txt) 
     using ```BioPython Entrez``` module.  
-    **Hints**
+    
+        **Hints**.  
         * Use the Entrez.efetch() function to retrieve the sequences in GenBank format (database “nucleotides”)
         * As alternative for your own parser you can also experiment with the Bio.SeqIO.parse() function
         * Search field descriptions for sequence database: http://www.ncbi.nlm.nih.gov/books/NBK49540/.  
