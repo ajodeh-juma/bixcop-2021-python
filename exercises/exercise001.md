@@ -15,7 +15,7 @@ and ```b```.
 ```34```
 
 ##### Instructions
-- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/ini2_dataset.txt), 
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/ini2_dataset.txt) 
 using ```wget``` command
 - Write a function to print the output
 
@@ -46,7 +46,8 @@ and ```T``` occur in _s_.
 ```20 12 17 21```
 
 ##### Instructions
-- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/dna_dataset.txt),
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/dna_dataset.txt)
+using ```wget``` command
 - Write a function to print the output
 </details>
 
@@ -72,6 +73,7 @@ occurrences of ```T``` in _t_ with ```U``` in _u_.
 
 ##### Instructions
 - Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/rna_dataset.txt),
+using ```wget``` command
 - Write a function to print the output
 </details>
 
@@ -96,6 +98,35 @@ then taking the complement of each symbol (e.g., the reverse complement of ```GT
 
 ##### Instructions
 - Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/revc_dataset.txt),
+using ```wget``` command
+- Write a function to print the output
+</details>
+
+<details>
+  <summary>Counting point mutations</summary>
+
+**Problem**.  
+Given two strings _s_ and _t_ of equal length, the Hamming distance between _s_ and _t_, 
+denoted _d_<sub>H</sub>(_s_,_t_), is the number of corresponding symbols that differ in _s_ and _t_, see the figure below.  
+ 
+![Figure 2](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/images/Hamming_distance.png).  
+
+Given: Two DNA strings _s_ and _t_ of equal length (not exceeding 1 kbp).
+
+Return: The Hamming distance _d_<sub>H</sub>(_s_,_t_)
+
+**Sample Dataset**.  
+```
+GAGCCTACTAACGGGAT
+CATCGTAATGACGGCCT
+```
+
+**Sample Output**.  
+```7```
+
+##### Instructions
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/hamm_dataset.txt),
+using ```wget``` command
 - Write a function to print the output
 </details>
 
@@ -114,7 +145,7 @@ indicates the label of the next string.
 
 **Given**: At most 10 DNA strings in ```FASTA``` format (of length at most 1 kbp each).
 
-**Return**: The ID of the string having the highest GC-content, followed by the GC-content of that string. 
+**Return**: The ID of the string having the highest GC-content, followed by the GC-content of that string in 6 decimal places. 
 
 
 **Sample Dataset**.  
@@ -138,36 +169,6 @@ Rosalind_0808
 
 ##### Instructions
 - Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/gc_dataset.txt),
-- Write a function to print the output
-</details>
-
-
-<details>
-  <summary>Counting point mutations</summary>
-
-**Problem**.  
-Given two strings _s_ and _t_ of equal length, the Hamming distance between _s_ and _t_, 
-denoted _d_<sub>H</sub>(_s_,_t_), is the number of corresponding symbols that differ in _s_ and _t_, see the figure below.  
- 
-![Figure 2](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/images/Hamming_distance.png).  
-
-Given: Two DNA strings _s_ and _t_ of equal length (not exceeding 1 kbp).
-
-Return: The Hamming distance _d_<sub>H</sub>(_s_,_t_)
-.
-
-
-**Sample Dataset**.  
-```
-GAGCCTACTAACGGGAT
-CATCGTAATGACGGCCT
-```
-
-**Sample Output**.  
-```7```
-
-##### Instructions
-- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/hamm_dataset.txt),
 - Write a function to print the output
 </details>
 
