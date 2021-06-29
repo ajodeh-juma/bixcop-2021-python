@@ -23,14 +23,9 @@ Largely inspired by [Rosalind](http://rosalind.info/about/) problems.
     - ```biopython```
     - ```fastx_toolkit```
     
-**References**.  
-1.  Rosalind: http://rosalind.info/about/
-2. fastx_toolkit: The FASTX-Toolkit is a collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing. 
-3. Cock _et al_. (2009). Biopython: freely available Python tools for computational molecular biology and bioinformatics.  _Bioinformatics_, Volume **25**, Issue 11, 1 June 2009, Pages 1422–1423, [DOI](https://doi.org/10.1093/bioinformatics/btp163)
-
-![](https://img.shields.io/badge/licence-MIT-lightgrey.svg)
 
 **Tasks**
+
 <details>
   <summary>Variables and arithmetic</summary>
   
@@ -374,4 +369,11 @@ The tiny example used can be obtained for validation purposes: http://www.bioinf
 - Document your code.
 - Make sure you hand in a working script. If it is unfinished, you can leave the unfinished part in comments.
 </details>
+
+**References**.  
+1.  Rosalind: http://rosalind.info/about/
+2. fastx_toolkit: The FASTX-Toolkit is a collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing. 
+3. Cock _et al_. (2009). Biopython: freely available Python tools for computational molecular biology and bioinformatics.  _Bioinformatics_, Volume **25**, Issue 11, 1 June 2009, Pages 1422–1423, [DOI](https://doi.org/10.1093/bioinformatics/btp163)
+
+![](https://img.shields.io/badge/licence-MIT-lightgrey.svg)
 
