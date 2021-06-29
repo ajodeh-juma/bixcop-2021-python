@@ -236,7 +236,7 @@ using the ```wget``` command.
     * reports statistics in an ordered table
 2. Use some functionality from the ```BioPython``` package to retrieve the records from GenBank in GenBank format.  
     * Retrieve records for the accessions given in the file [ebov_accessions.txt](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/ebov_accessions.txt) 
-    using BioPython Entrez module
+    using ```BioPython Entrez``` module
     
 
 **Output(s)**.  
@@ -321,20 +321,19 @@ The output of your script should look like this:
 
 The tiny example used can be obtained for validation purposes: http://www.bioinformatics.nl/courses/BIF-30806/docs/tiny.fq.  
 **Environment**.  
-You should work on the ```hpc``` server.  
-The IP address is: 10.73.216.102.  
-The program ```fastq_quality_trimmer``` is installed there.  
-Try it by typing ```fastq_quality_trimmer –h```.  
-On the command line. You should see information on the usage and options.  
-Additional notes:  
+- create a ```conda environment``` named ```bioinfm-env```.  
+- install the package ```fastx_toolkit``` and use the program ```fastq_quality_trimmer``` to ```trim``` sequences.  
+- Try it by typing ```fastq_quality_trimmer –h```.  
+- On the command line. You should see information on the usage and options.  
+
+**Additional notes**:  
 - Put your full name and student number as a comment in your script and put your name in the file name of your script.
 - You may use the slides and the code from your exercises from this week. You cannot use BioPython or comparable packages, you should write your own fastq parser. You may not directly copy code from the internet, but you may use it as inspiration.
 - The FASTQ format and quality values are explained on: http://en.wikipedia.org/wiki/FASTQ_format
 - Running ```fastq_quality_trimmer``` takes only a few seconds or so. But to avoid running it over and over again, make sure your code checks whether the trimmed file exists.
 - Think about your code organization. Use subroutines.
 - Document your code.
-- Make sure you hand in a working script. If it is unfinished, you can leave the
-unfinished part in comments.
+- Make sure you hand in a working script. If it is unfinished, you can leave the unfinished part in comments.
 </details>
  
 
