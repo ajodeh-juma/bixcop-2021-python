@@ -169,6 +169,7 @@ Rosalind_0808
 
 ##### Instructions
 - Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/gc_dataset.txt),
+using ```wget``` command
 - Write a function to print the output
 </details>
 
