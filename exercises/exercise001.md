@@ -15,7 +15,8 @@ and ```b```.
 ```34```
 
 ##### Instructions
-- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/ini2_dataset.txt),
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/ini2_dataset.txt), 
+using ```wget``` command
 - Write a function to print the output
 
 </details>
