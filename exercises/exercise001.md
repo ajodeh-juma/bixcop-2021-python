@@ -146,8 +146,8 @@ Rosalind_0808
 
 **Problem**.  
 Given two strings _s_ and _t_ of equal length, the Hamming distance between _s_ and _t_, 
-denoted _d_<sub>H</sub>(_s_,_t_), is the number of corresponding symbols that differ in _s_ and _t_. 
-See ![Figure 2](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/images/Hamming_distance.png)
+denoted _d_<sub>H</sub>(_s_,_t_), is the number of corresponding symbols that differ in _s_ and _t_.   
+See ![Figure 2](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/images/Hamming_distance.png).  
 
 Given: Two DNA strings _s_ and _t_ of equal length (not exceeding 1 kbp).
 
