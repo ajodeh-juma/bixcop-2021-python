@@ -243,7 +243,7 @@ using the ```wget``` command.
     
         **Hints**.  
         * Use the ```Entrez.efetch()``` function to retrieve the sequences in GenBank format (database “nucleotides”)
-        * As alternative for your own parser you can also experiment with the Bio.SeqIO.parse() function
+        * As alternative for your own parser you can also experiment with the ```Bio.SeqIO.parse()``` function
         * Search field descriptions for sequence database: http://www.ncbi.nlm.nih.gov/books/NBK49540/.  
         
          **Example**.  
