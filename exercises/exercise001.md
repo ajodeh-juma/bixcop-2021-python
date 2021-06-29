@@ -240,6 +240,7 @@ using the ```wget``` command.
 2. Use some functionality from the ```BioPython``` package to retrieve the records from GenBank in GenBank format.  
     * Retrieve records for the accessions given in the file [ebov_accessions.txt](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/ebov_accessions.txt) 
     using ```BioPython Entrez``` module.  
+    * Save your genbank records as ```ebov.gbk```
     
         **Hints**.  
         * Use the ```Entrez.efetch()``` function to retrieve the sequences in GenBank format (database “nucleotides”)
@@ -289,12 +290,12 @@ use a command line tool to ```trim``` off low-quality bases, and assess whether 
 **Assignment**.  
 Write a script that performs the following tasks:
 1. Parse a FASTQ file. Translate the quality values (```Illumina 1.5+ encoding```) to a
-scale from 0 to 41. Use the built-in function ord()for the translation.
+scale from ```0``` to ```41```. Use the built-in Python function ```ord()``` for the translation.
 2. Calculate the length of the shortest sequence in the input FASTQ file, the longest
 sequence in the file, and calculate the average sequence length.
-3. Calculate the average quality score (on a scale from 0 to 41) at each position of
+3. Calculate the average quality score (on a scale from ```0``` to ```41```) at each position of
 the read. In the raw FASTQ file all sequences have the same length. When calculating the average quality value at position 0, you average over the quality values at position 0 of all the reads, etc. Your script should be able to work on input sequences of any length (e.g. the tiny example below).
-4. In your Python script, trim off low-quality bases using the program ```fastq_quality_trimmer```. Set the quality threshold to 30. Name the output file ‘trimmed.fq’.
+4. In your Python script, trim off low-quality bases using the program ```fastq_quality_trimmer```. Set the quality threshold to ```30```. Name the output file ‘trimmed.fq’.
 5. Calculate the average quality score at each position of the read in the trimmed file. At each position, calculate the improvement with respect to that of the original FASTQ file (step 3).
 6. Report the minimum, maximum, average sequence length for both the original FASTQ file, and the trimmed FASTQ file.
 7. For each read position, report the average quality score in the original file, the average quality score in the trimmed file, and the improvement in average quality, in tab-delimited columns.
