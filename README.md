@@ -27,7 +27,7 @@ Largely inspired by [Rosalind](http://rosalind.info/about/) problems.
 **Tasks**
 
 <details>
-  <summary>Variables and arithmetic</summary>
+  <summary>1. Variables and arithmetic</summary>
   
 **Problem**.  
 
@@ -50,7 +50,7 @@ using ```wget``` command
 </details>
 
 <details>
-  <summary>Counting DNA Nucleotides</summary>
+  <summary>2. Counting DNA Nucleotides</summary>
   
 **Problem**.  
 A string is simply an ordered collection of symbols selected from 
@@ -80,7 +80,7 @@ using ```wget``` command
 </details>
 
 <details>
-  <summary>Transcribing DNA to RNA</summary>
+  <summary>3. Transcribing DNA to RNA</summary>
 
 **Problem**.  
 An RNA string is a string formed from the alphabet containing 
@@ -106,7 +106,7 @@ using ```wget``` command
 </details>
 
 <details>
-  <summary>Complementing a Strand of DNA</summary>
+  <summary>4. Complementing a Strand of DNA</summary>
 
 **Problem**.  
 In DNA strings, symbols ```A``` and ```T``` are complements of each other, as are ```C``` and ```G```.  
@@ -131,7 +131,7 @@ using ```wget``` command
 </details>
 
 <details>
-  <summary>Counting point mutations</summary>
+  <summary>5. Counting point mutations</summary>
 
 **Problem**.  
 Given two strings _s_ and _t_ of equal length, the Hamming distance between _s_ and _t_, 
@@ -159,7 +159,7 @@ using ```wget``` command
 </details>
 
 <details>
-  <summary>Computing GC content</summary>
+  <summary>6. Computing GC content</summary>
 
 **Problem**.  
 The GC-content of a DNA string is given by the percentage of symbols in the string that are ```C``` or ```G```.  
@@ -203,7 +203,7 @@ using ```wget``` command
 
 
 <details>
-  <summary>Finding Base Frequencies</summary>
+  <summary>7. Finding Base Frequencies</summary>
 
 **Problem**.  
 DNA consists of four molecules called nucleotides, or bases, and can be 
@@ -245,7 +245,7 @@ If unable to access the file, get it from [here](https://github.com/ajodeh-juma/
 </details>
 
 <details>
-  <summary>Parsing GenBank format file</summary>
+  <summary>8. Parsing GenBank format file</summary>
   
 **Problem**.  
 GenBank format (GenBank Flat File Format) consists of an 
@@ -297,7 +297,7 @@ using the ```wget``` command.
 </details>
 
 <details>
-  <summary>Trimming NGS data</summary>
+  <summary>9. Trimming NGS data</summary>
   
   
 **Description**.  
