@@ -1,4 +1,25 @@
 <details>
+  <summary>Variables and arithmetic</summary>
+  
+**Problem**.  
+Given: Two positive integers ``a`` and ```b```, each less than 1000.
+
+Return: The integer corresponding to the square of the hypotenuse of the right triangle whose legs have lengths ```a```
+and ```b```.  
+
+**Sample Dataset**.  
+```3 5```
+
+**Sample Output**.  
+```34```
+
+##### Instructions
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/ini2_dataset.txt),
+- Write a function to print the output
+
+</details>
+
+<details>
   <summary>Counting DNA Nucleotides</summary>
   
 **Problem**.  
@@ -164,7 +185,7 @@ the read. In the raw FASTQ file all sequences have the same length. When calcula
 7. For each read position, report the average quality score in the original file, the average quality score in the trimmed file, and the improvement in average quality, in tab-delimited columns.
 Input
 A FASTQ file containing 10000 records. It is a sample of genomic reads from a tomato plant.  
-Use the command ```wget``` to download the file from this location: [here](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/tomatosample.fq).  
+Use the command ```wget``` to download the file [here](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/tomatosample.fq).  
 For development purposes or if you fail to get step 4 working, 
 a trimmed FASTQ file is also provided: http://www.bioinformatics.nl/courses/BIF-30806/docs/trimmedsample.fq
 
