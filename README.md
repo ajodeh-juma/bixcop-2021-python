@@ -29,8 +29,9 @@ Largely inspired by [Rosalind](http://rosalind.info/about/) problems.
 <details>
   <summary>1. Variables and arithmetic</summary>
  
-<span style="color:blue">**Problem.**</span>
-**Problem**.  
+<span style="color:red">cardinals</span>
+**Problem**. 
+----------- 
 
 **Given**: Two positive integers ``a`` and ```b```, each less than 1000.
 
