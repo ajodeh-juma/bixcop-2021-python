@@ -32,6 +32,276 @@ Largely inspired by [Rosalind](http://rosalind.info/about/) problems.
 
 **Tasks**
 <details>
+  <summary>Variables and arithmetic</summary>
+  
+**Problem**.  
+
+**Given**: Two positive integers ``a`` and ```b```, each less than 1000.
+
+**Return**: The integer corresponding to the square of the hypotenuse of the right triangle whose legs have lengths ```a```
+and ```b```.  
+
+**Sample Dataset**.  
+```3 5```
+
+**Sample Output**.  
+```34```
+
+##### Instructions
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/ini2_dataset.txt) 
+using ```wget``` command
+- Write a function to print the output
+
+</details>
+
+<details>
+  <summary>Counting DNA Nucleotides</summary>
+  
+**Problem**.  
+A string is simply an ordered collection of symbols selected from 
+some alphabet and formed into a word; the length of a string is the 
+number of symbols that it contains.
+
+An example of a length 21 DNA string (whose alphabet contains the 
+symbols ```A```, ```C```, ```G```, and ```T```) is 
+```ATGCTTCAGAAAGGTCTTACG```.
+
+Given: A DNA string _s_ of length at most 1000 nt.  
+
+Return: Four integers (separated by spaces) counting the 
+respective number of times that the symbols ```A```, ```C```, ```G```, 
+and ```T``` occur in _s_.
+
+**Sample Dataset**.  
+```AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC```
+
+**Sample Output**.  
+```20 12 17 21```
+
+##### Instructions
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/dna_dataset.txt)
+using ```wget``` command
+- Write a function to print the output
+</details>
+
+<details>
+  <summary>Transcribing DNA to RNA</summary>
+
+**Problem**.  
+An RNA string is a string formed from the alphabet containing 
+```A```, ```C```, ```G```, and ```U```.
+Given a DNA string _t_ corresponding to a coding strand, 
+its transcribed RNA string _u_ is formed by replacing all 
+occurrences of ```T``` in _t_ with ```U``` in _u_.
+
+**Given**: A DNA string _t_ having length at most 1000 nt.  
+
+**Return**: The transcribed RNA string of _t_
+
+**Sample Dataset**.  
+```GATGGAACTTGACTACGTAAATT```
+
+**Sample Output**.  
+```GAUGGAACUUGACUACGUAAAUU```
+
+##### Instructions
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/rna_dataset.txt),
+using ```wget``` command
+- Write a function to print the output
+</details>
+
+<details>
+  <summary>Complementing a Strand of DNA</summary>
+
+**Problem**.  
+In DNA strings, symbols ```A``` and ```T``` are complements of each other, as are ```C``` and ```G```.  
+
+The reverse complement of a DNA string _s_ is the string _s_<sup>_c_</sup> formed by reversing the symbols of _s_,
+then taking the complement of each symbol (e.g., the reverse complement of ```GTCA``` is ```TGAC```).
+
+**Given**: A DNA string _s_ of length at most 1000 bp.  
+
+**Return**: The reverse complement _s_<sup>_c_</sup> of _s_.
+
+**Sample Dataset**.  
+```AAAACCCGGT```
+
+**Sample Output**.  
+```ACCGGGTTTT```
+
+##### Instructions
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/revc_dataset.txt),
+using ```wget``` command
+- Write a function to print the output
+</details>
+
+<details>
+  <summary>Counting point mutations</summary>
+
+**Problem**.  
+Given two strings _s_ and _t_ of equal length, the Hamming distance between _s_ and _t_, 
+denoted _d_<sub>H</sub>(_s_,_t_), is the number of corresponding symbols that differ in _s_ and _t_, see the figure below.  
+ 
+![Figure 2](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/images/Hamming_distance.png).  
+
+Given: Two DNA strings _s_ and _t_ of equal length (not exceeding 1 kbp).
+
+Return: The Hamming distance _d_<sub>H</sub>(_s_,_t_)
+
+**Sample Dataset**.  
+```
+GAGCCTACTAACGGGAT
+CATCGTAATGACGGCCT
+```
+
+**Sample Output**.  
+```7```
+
+##### Instructions
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/hamm_dataset.txt),
+using ```wget``` command
+- Write a function to print the output
+</details>
+
+<details>
+  <summary>Computing GC content</summary>
+
+**Problem**.  
+The GC-content of a DNA string is given by the percentage of symbols in the string that are ```C``` or ```G```.  
+For example, the GC-content of ```AGCTATAG``` is ```37.5%```.  Note that the reverse complement of any DNA string has the same GC-content.
+
+DNA strings must be labeled when they are consolidated into a database.  
+A commonly used method of string labeling is called ```FASTA``` format.  
+In this format, the string is introduced by a line that begins with ```>```, 
+followed by some labeling information. Subsequent lines contain the string itself; the first line to begin with ```>``` 
+indicates the label of the next string.
+
+**Given**: At most 10 DNA strings in ```FASTA``` format (of length at most 1 kbp each).
+
+**Return**: The ID of the string having the highest GC-content, followed by the GC-content of that string in 6 decimal places. 
+
+
+**Sample Dataset**.  
+```
+>Rosalind_6404
+CCTGCGGAAGATCGGCACTAGAATAGCCAGAACCGTTTCTCTGAGGCTTCCGGCCTTCCC
+TCCCACTAATAATTCTGAGG
+>Rosalind_5959
+CCATCGGTAGCGCATCCTTAGTCCAATTAAGTCCCTATCCAGGCGCTCCGCCGAAGGTCT
+ATATCCATTTGTCAGCAGACACGC
+>Rosalind_0808
+CCACCCTCGTGGTATGGCTAGGCATTCAGGAACCGGAGAACGCTTCAGACCAGCCCGGAC
+TGGGAACCTGCGGGCAGTAGGTGGAAT
+```
+
+**Sample Output**.  
+```
+Rosalind_0808
+60.919540
+```
+
+##### Instructions
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/gc_dataset.txt),
+using ```wget``` command
+- Write a function to print the output
+</details>
+
+
+<details>
+  <summary>Finding Base Frequencies</summary>
+
+**Problem**.  
+DNA consists of four molecules called nucleotides, or bases, and can be 
+represented as a string of the letters ```A```, ```C```, ```G```, 
+and ```T```. But this does not 
+mean that all four nucleotides need to be similarly frequent. 
+Are some nucleotides more frequent than others, say in yeast, as 
+represented by the first chromosome of yeast? Also, DNA is really not a 
+single thread, but two threads wound together. This wounding is based on 
+an ```A``` from one thread binding to a ```T``` of the other thread, 
+and ```C``` binding to 
+```G``` (that is, ```A``` will only bind with ```T```, not with ```C``` or ```G```). 
+Could this fact 
+force groups of the four symbol frequencies to be equal? 
+The answer is that the A-T and G-C binding does not in principle force 
+certain frequencies to be equal, but in practice they usually become so 
+because of evolutionary factors related to this pairing.
+
+##### Task
+Compute the frequencies of the bases ```A```, ```C```, ```G```, 
+and ```T```. That is, the number of times each base occurs in the 
+DNA string, divided by the length of the string. For example, 
+if the DNA string is ```ACGGAAA```, the length is 7, ```A``` appears 
+4 times with frequency 4/7, ```C``` appears once with frequency 1/7, 
+```G``` appears twice with frequency 2/7, and ```T``` does not 
+appear so the frequency is 0.
+
+##### Instructions
+- Obtain the [yeast chromosome 1 sequence](http://sgd-archive.yeastgenome.org/sequence/S288C_reference/chromosomes/fasta/chr01.fsa),
+If unable to access the file, get it from [here](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/chr01.fsa)
+- Write function(s) to compute the base frequencies.
+
+**Sample Output**.  
+(Note that the numbers in this output are made up. The numbers in your output will be different!).  
+
+```A: 0.112647```<br>```C: 0.223456```<br>```G: 0.212356```<br>```T: 0.501349```.  
+
+
+</details>
+
+<details>
+  <summary>Parsing GenBank format file</summary>
+  
+**Problem**.  
+GenBank format (GenBank Flat File Format) consists of an 
+annotation section and a sequence section. The start of the annotation 
+section is marked by a line beginning with the word ```LOCUS```. 
+The start of sequence section is marked by a line beginning with the 
+word ```ORIGIN``` and the end of the section is marked by a 
+line with only ```//```.  
+Explore a sample genbank file [here](https://www.ncbi.nlm.nih.gov/nuccore/X81322)
+
+**Instructions**.  
+Fetch the ```argonaut.gbk``` [here](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/argonaut.gb)
+using the ```wget``` command.
+
+**Tasks**.  
+1. Write your own Python script that parses the GenBank file and performs:  
+    * computes sequence records lengths
+    * computes GC content
+    * reports statistics in an ordered table
+2. Use some functionality from the ```BioPython``` package to retrieve the records from GenBank in GenBank format.  
+    * Retrieve records for the accessions given in the file [ebov_accessions.txt](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/ebov_accessions.txt) 
+    using ```BioPython Entrez``` module.  
+    * Save your genbank records as ```ebov.gbk```
+    
+        **Hints**.  
+        * Use the ```Entrez.efetch()``` function to retrieve the sequences in GenBank format (database “nucleotides”)
+        * As alternative for your own parser you can also experiment with the ```Bio.SeqIO.parse()``` function
+        * Search field descriptions for sequence database: http://www.ncbi.nlm.nih.gov/books/NBK49540/.  
+        
+         **Example**.  
+        ```
+        >>>from Bio import Entrez
+        >>>Entrez.email = "your_name@your_mail_server.com" 
+        >>>handle = Entrez.efetch(db="nucleotide", id=["FJ817486, JX069768, JX469983"], rettype="fasta") 
+        >>>records = handle.read()
+        >>>print(records)
+        ```
+    
+
+**Output(s)**.  
+* Print a tab-delimited table of accession number, organism name, %GC content, sequence length
+* Print the label and sequence of the shortest sequence in ```FASTA``` format
+
+**Sample Output**.  
+```NM_179453    Arabidopsis thaliana    45.54   3507```.  
+```NM_001130718 Strongylocentrotus purpuratus   52.96   2868```.  
+```>NM_166020  Drosophila melanogaster ACAGTGCGGAGTGTTTGTTACATGTTAGAGCGTATATATATTTTGAAAAGAGCAGCGACGCCGCCTCAAACCACCGACTAAAATGTCCACGGAGCGTGAGCT```
+
+</details>
+
+<details>
   <summary>Trimming NGS data</summary>
   
   
