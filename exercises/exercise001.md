@@ -32,7 +32,6 @@ symbols ```A```, ```C```, ```G```, and ```T```) is
 ```ATGCTTCAGAAAGGTCTTACG```.
 
 Given: A DNA string _s_ of length at most 1000 nt.
-
 Return: Four integers (separated by spaces) counting the 
 respective number of times that the symbols ```A```, ```C```, ```G```, 
 and ```T``` occur in _s_.
@@ -43,6 +42,9 @@ and ```T``` occur in _s_.
 **Sample Output**.  
 ```20 12 17 21```
 
+##### Instructions
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/dna_dataset.txt),
+- Write a function to print the output
 </details>
 
 <details>
@@ -63,7 +65,78 @@ Return: The transcribed RNA string of _t_
 
 **Sample Output**.  
 ```GAUGGAACUUGACUACGUAAAUU```
+
+##### Instructions
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/rna_dataset.txt),
+- Write a function to print the output
 </details>
+
+<details>
+  <summary>Complementing a Strand of DNA</summary>
+
+**Problem**.  
+In DNA strings, symbols ```A``` and ```T``` are complements of each other, as are ```C``` and ```G```.  
+
+The reverse complement of a DNA string _s_ is the string _s_<sup>_c_</sup> formed by reversing the symbols of _s_,
+then taking the complement of each symbol (e.g., the reverse complement of ```GTCA``` is ```TGAC```).
+
+Given: A DNA string _s_ of length at most 1000 bp.
+Return: The reverse complement _s_<sup>_c_</sup> of _s_.
+
+**Sample Dataset**.  
+```AAAACCCGGT```
+
+**Sample Output**.  
+```ACCGGGTTTT```
+
+##### Instructions
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/revc_dataset.txt),
+- Write a function to print the output
+</details>
+
+<details>
+  <summary>Computing GC content</summary>
+
+**Problem**.  
+The GC-content of a DNA string is given by the percentage of symbols in the string that are ```C``` or ```G```.  
+For example, the GC-content of ```AGCTATAG``` is ```37.5%```.  Note that the reverse complement of any DNA string has the same GC-content.
+
+DNA strings must be labeled when they are consolidated into a database.  
+A commonly used method of string labeling is called ```FASTA``` format.  
+In this format, the string is introduced by a line that begins with ```>```, 
+followed by some labeling information. Subsequent lines contain the string itself; the first line to begin with ```>``` 
+indicates the label of the next string.
+
+Given: At most 10 DNA strings in ```FASTA``` format (of length at most 1 kbp each).
+
+Return: The ID of the string having the highest GC-content, followed by the GC-content of that string. 
+
+
+**Sample Dataset**.  
+```
+>Rosalind_6404
+CCTGCGGAAGATCGGCACTAGAATAGCCAGAACCGTTTCTCTGAGGCTTCCGGCCTTCCC
+TCCCACTAATAATTCTGAGG
+>Rosalind_5959
+CCATCGGTAGCGCATCCTTAGTCCAATTAAGTCCCTATCCAGGCGCTCCGCCGAAGGTCT
+ATATCCATTTGTCAGCAGACACGC
+>Rosalind_0808
+CCACCCTCGTGGTATGGCTAGGCATTCAGGAACCGGAGAACGCTTCAGACCAGCCCGGAC
+TGGGAACCTGCGGGCAGTAGGTGGAAT
+```
+
+**Sample Output**.  
+```
+Rosalind_0808
+60.919540
+```
+
+##### Instructions
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/gc_dataset.txt),
+- Write a function to print the output
+</details>
+
+
 
 <details>
   <summary>Finding Base Frequencies</summary>
