@@ -243,8 +243,8 @@ using the ```wget``` command.
     
 
 **Output(s)**.  
-    * Print a tab-delimited table of accession number, organism name, %GC content, sequence length
-    * Print the label and sequence of the shortest sequence in ```FASTA``` format
+* Print a tab-delimited table of accession number, organism name, %GC content, sequence length
+* Print the label and sequence of the shortest sequence in ```FASTA``` format
 
 **Sample Output**.  
 ```NM_179453    Arabidopsis thaliana    45.54   3507```.  
