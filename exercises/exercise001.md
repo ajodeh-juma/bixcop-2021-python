@@ -216,7 +216,7 @@ The above output are made up numbers
 </details>
 
 <details>
-  <summary>Parsing GenBank format</summary>
+  <summary>Parsing GenBank format file</summary>
   
 **Problem**.  
 GenBank format (GenBank Flat File Format) consists of an 
