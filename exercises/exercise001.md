@@ -31,7 +31,8 @@ An example of a length 21 DNA string (whose alphabet contains the
 symbols ```A```, ```C```, ```G```, and ```T```) is 
 ```ATGCTTCAGAAAGGTCTTACG```.
 
-Given: A DNA string _s_ of length at most 1000 nt.
+Given: A DNA string _s_ of length at most 1000 nt.  
+
 Return: Four integers (separated by spaces) counting the 
 respective number of times that the symbols ```A```, ```C```, ```G```, 
 and ```T``` occur in _s_.
@@ -57,8 +58,9 @@ Given a DNA string _t_ corresponding to a coding strand,
 its transcribed RNA string _u_ is formed by replacing all 
 occurrences of ```T``` in _t_ with ```U``` in _u_.
 
-Given: A DNA string _t_ having length at most 1000 nt.
-Return: The transcribed RNA string of _t_
+**Given**: A DNA string _t_ having length at most 1000 nt.  
+
+**Return**: The transcribed RNA string of _t_
 
 **Sample Dataset**.  
 ```GATGGAACTTGACTACGTAAATT```
@@ -80,8 +82,9 @@ In DNA strings, symbols ```A``` and ```T``` are complements of each other, as ar
 The reverse complement of a DNA string _s_ is the string _s_<sup>_c_</sup> formed by reversing the symbols of _s_,
 then taking the complement of each symbol (e.g., the reverse complement of ```GTCA``` is ```TGAC```).
 
-Given: A DNA string _s_ of length at most 1000 bp.
-Return: The reverse complement _s_<sup>_c_</sup> of _s_.
+**Given**: A DNA string _s_ of length at most 1000 bp.  
+
+**Return**: The reverse complement _s_<sup>_c_</sup> of _s_.
 
 **Sample Dataset**.  
 ```AAAACCCGGT```
@@ -107,9 +110,9 @@ In this format, the string is introduced by a line that begins with ```>```,
 followed by some labeling information. Subsequent lines contain the string itself; the first line to begin with ```>``` 
 indicates the label of the next string.
 
-Given: At most 10 DNA strings in ```FASTA``` format (of length at most 1 kbp each).
+**Given**: At most 10 DNA strings in ```FASTA``` format (of length at most 1 kbp each).
 
-Return: The ID of the string having the highest GC-content, followed by the GC-content of that string. 
+**Return**: The ID of the string having the highest GC-content, followed by the GC-content of that string. 
 
 
 **Sample Dataset**.  
