@@ -29,7 +29,6 @@ Largely inspired by [Rosalind](http://rosalind.info/about/) problems.
 <details>
   <summary>1. Variables and arithmetic</summary>
  
-<span style="color:red">cardinals</span>
 **Problem**. 
 ----------- 
 
@@ -44,12 +43,12 @@ and ```b```.
 **Sample Output**.  
 ```34```
 
-##### Instructions
+**Instructions**
 - Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/ini2_dataset.txt) 
 using ```wget``` command
-- Write a function to print the output
-
+- Write a function to print the output.  
 </details>
+------------
 
 <details>
   <summary>2. Counting DNA Nucleotides</summary>
