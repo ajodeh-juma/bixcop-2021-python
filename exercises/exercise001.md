@@ -2,9 +2,10 @@
   <summary>Variables and arithmetic</summary>
   
 **Problem**.  
-Given: Two positive integers ``a`` and ```b```, each less than 1000.
 
-Return: The integer corresponding to the square of the hypotenuse of the right triangle whose legs have lengths ```a```
+**Given**: Two positive integers ``a`` and ```b```, each less than 1000.
+
+**Return**: The integer corresponding to the square of the hypotenuse of the right triangle whose legs have lengths ```a```
 and ```b```.  
 
 **Sample Dataset**.  
@@ -139,6 +140,44 @@ Rosalind_0808
 - Write a function to print the output
 </details>
 
+
+<details>
+  <summary>Counting point mutations</summary>
+
+**Problem**.  
+Given two strings _s_ and _t_ of equal length, the Hamming distance between _s_ and _t_, 
+denoted _d_<sub>H</sub>(_s_,_t_), is the number of corresponding symbols that differ in _s_ and _t_. 
+See Figure 2. ![Figure 2](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/images/Hamming_distance.png)
+
+
+**Given**: At most 10 DNA strings in ```FASTA``` format (of length at most 1 kbp each).
+
+**Return**: The ID of the string having the highest GC-content, followed by the GC-content of that string. 
+
+
+**Sample Dataset**.  
+```
+>Rosalind_6404
+CCTGCGGAAGATCGGCACTAGAATAGCCAGAACCGTTTCTCTGAGGCTTCCGGCCTTCCC
+TCCCACTAATAATTCTGAGG
+>Rosalind_5959
+CCATCGGTAGCGCATCCTTAGTCCAATTAAGTCCCTATCCAGGCGCTCCGCCGAAGGTCT
+ATATCCATTTGTCAGCAGACACGC
+>Rosalind_0808
+CCACCCTCGTGGTATGGCTAGGCATTCAGGAACCGGAGAACGCTTCAGACCAGCCCGGAC
+TGGGAACCTGCGGGCAGTAGGTGGAAT
+```
+
+**Sample Output**.  
+```
+Rosalind_0808
+60.919540
+```
+
+##### Instructions
+- Obtain the [dataset](https://github.com/ajodeh-juma/bixcop-2021-python/blob/main/data/test/gc_dataset.txt),
+- Write a function to print the output
+</details>
 
 
 <details>
