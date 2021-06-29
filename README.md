@@ -48,12 +48,12 @@ and ```b```.
 using ```wget``` command
 - Write a function to print the output.  
 </details>
-------------
 
 <details>
   <summary>2. Counting DNA Nucleotides</summary>
   
 **Problem**.  
+-----------
 A string is simply an ordered collection of symbols selected from 
 some alphabet and formed into a word; the length of a string is the 
 number of symbols that it contains.
@@ -84,6 +84,7 @@ using ```wget``` command
   <summary>3. Transcribing DNA to RNA</summary>
 
 **Problem**.  
+-----------
 An RNA string is a string formed from the alphabet containing 
 ```A```, ```C```, ```G```, and ```U```.
 Given a DNA string _t_ corresponding to a coding strand, 
@@ -110,6 +111,7 @@ using ```wget``` command
   <summary>4. Complementing a Strand of DNA</summary>
 
 **Problem**.  
+-----------
 In DNA strings, symbols ```A``` and ```T``` are complements of each other, as are ```C``` and ```G```.  
 
 The reverse complement of a DNA string _s_ is the string _s_<sup>_c_</sup> formed by reversing the symbols of _s_,
@@ -134,7 +136,8 @@ using ```wget``` command
 <details>
   <summary>5. Counting point mutations</summary>
 
-**Problem**.  
+**Problem**. 
+----------- 
 Given two strings _s_ and _t_ of equal length, the Hamming distance between _s_ and _t_, 
 denoted _d_<sub>H</sub>(_s_,_t_), is the number of corresponding symbols that differ in _s_ and _t_, see the figure below.  
  
@@ -163,6 +166,7 @@ using ```wget``` command
   <summary>6. Computing GC content</summary>
 
 **Problem**.  
+-----------
 The GC-content of a DNA string is given by the percentage of symbols in the string that are ```C``` or ```G```.  
 For example, the GC-content of ```AGCTATAG``` is ```37.5%```.  Note that the reverse complement of any DNA string has the same GC-content.
 
@@ -206,7 +210,8 @@ using ```wget``` command
 <details>
   <summary>7. Finding Base Frequencies</summary>
 
-**Problem**.  
+**Problem**. 
+----------- 
 DNA consists of four molecules called nucleotides, or bases, and can be 
 represented as a string of the letters ```A```, ```C```, ```G```, 
 and ```T```. But this does not 
@@ -249,6 +254,7 @@ If unable to access the file, get it from [here](https://github.com/ajodeh-juma/
   <summary>8. Parsing GenBank format file</summary>
   
 **Problem**.  
+-----------
 GenBank format (GenBank Flat File Format) consists of an 
 annotation section and a sequence section. The start of the annotation 
 section is marked by a line beginning with the word ```LOCUS```. 
@@ -294,7 +300,6 @@ using the ```wget``` command.
 ```NM_179453    Arabidopsis thaliana    45.54   3507```.  
 ```NM_001130718 Strongylocentrotus purpuratus   52.96   2868```.  
 ```>NM_166020  Drosophila melanogaster ACAGTGCGGAGTGTTTGTTACATGTTAGAGCGTATATATATTTTGAAAAGAGCAGCGACGCCGCCTCAAACCACCGACTAAAATGTCCACGGAGCGTGAGCT```
-
 </details>
 
 <details>
@@ -302,6 +307,7 @@ using the ```wget``` command.
   
   
 **Description**.  
+-----------
 Next-generation sequencing machines produce vast amounts of DNA or RNA reads. 
 Illumina’s sequencers produce output in the form of FASTQ files. 
 Quality control of the produced reads is a necessary step before any downstream analysis, 
