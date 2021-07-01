@@ -343,7 +343,7 @@ scale from ```0``` to ```41```. Use the built-in Python function ```ord()``` for
 sequence in the file, and calculate the average sequence length.
 3. Calculate the average quality score (on a scale from ```0``` to ```41```) at each position of
 the read. In the raw FASTQ file all sequences have the same length. When calculating the average quality value at position 0, you average over the quality values at position 0 of all the reads, etc. Your script should be able to work on input sequences of any length (e.g. the tiny example below).
-4. In your Python script, trim off low-quality bases using the program ```fastq_quality_trimmer```. Set the quality threshold to ```30```. Name the output file ‘trimmed.fq’.
+4. In your Python script, trim off low-quality bases using the program ```fastq_quality_trimmer```. Set the quality threshold to ```30```. Name the output file ```trimmed.fq```.
 5. Calculate the average quality score at each position of the read in the trimmed file. At each position, calculate the improvement with respect to that of the original FASTQ file (step 3).
 6. Report the minimum, maximum, average sequence length for both the original FASTQ file, and the trimmed FASTQ file.
 7. For each read position, report the average quality score in the original file, the average quality score in the trimmed file, and the improvement in average quality, in tab-delimited columns.
@@ -351,7 +351,7 @@ Input
 A FASTQ file containing 10000 records. It is a sample of genomic reads from a tomato plant.  
 Use the command ```wget``` to download the file [here](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/tomatosample.fq).  
 For development purposes or if you fail to get step 4 working, 
-a trimmed FASTQ file is also provided: http://www.bioinformatics.nl/courses/BIF-30806/docs/trimmedsample.fq
+a trimmed FASTQ file is also provided [here](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/trimmedsample.fq)
 
 **Output**.  
 The output of your script should look like this: 
@@ -373,7 +373,8 @@ The output of your script should look like this:
 |               | pos 4 avg     |     26.33             |                   |      38.00         |
 
 
-The tiny example used can be obtained for validation purposes: http://www.bioinformatics.nl/courses/BIF-30806/docs/tiny.fq.  
+The tiny example used can be obtained for validation purposes [here](https://github.com/ajodeh-juma/bixcop-2021-python/raw/main/data/test/tiny.fq).  
+ 
 **Environment**.  
 - use the ```conda environment``` you created ```python-bixcop21-env```.
 - Try it by typing ```fastq_quality_trimmer –h```.  
@@ -390,7 +391,7 @@ The tiny example used can be obtained for validation purposes: http://www.bioinf
 </details>
 
 **References**.  
-1.  Rosalind: http://rosalind.info/about/
+1. Rosalind: http://rosalind.info/about/
 2. fastx_toolkit: The FASTX-Toolkit is a collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing. 
 3. Cock _et al_. (2009). Biopython: freely available Python tools for computational molecular biology and bioinformatics.  _Bioinformatics_, Volume **25**, Issue 11, 1 June 2009, Pages 1422–1423, [DOI](https://doi.org/10.1093/bioinformatics/btp163)
 
