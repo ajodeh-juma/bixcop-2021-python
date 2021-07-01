@@ -12,14 +12,27 @@ Largely inspired by [Rosalind](http://rosalind.info/about/) problems.
 
 **Instructions**.  
 1. Download and Install ```anaconda``` installer from the [website](https://www.anaconda.com/products/individual).  
-2. Create a ```conda``` environment, and provide it with a simple name e.g ```python-programming-env```.  
-3. Install the packages:
+2. Create a ```conda``` environment, and provide it with a simple name e.g ```python-bixcop21-env```.  
+
+    ```conda create -n python-bixcop21```
+3. Activate your newly created ```conda``` environment and Install the packages:
     * [biopython](https://biopython.org/)
     * [fastx_toolkit](http://hannonlab.cshl.edu/fastx_toolkit/)
+    
+    ```
+    conda activate python-bixcop21-env
+    conda install -c conda-forge biopython
+    conda install -c bioconda fastx_toolkit
+   ```
+4. To run a script from the  ```Terminal```, a typical command can be:  
+    ```python scripts/compute_gc.py data/test/gc_test.txt```  
+    where the first argument is the ```script (compute_gc.py)``` and the second argument is the ```path``` to the input  
+    file ```data/test/gc_test.txt```. A script can take multiple arguments separated by space.  
+    
+    To achieve this, make use of the built-in ```python``` ```argv``` package/module
 
 **Requirements**.  
     - ```anaconda/miniconda```
-    - ```jupyter```
     - ```biopython```
     - ```fastx_toolkit```
     
@@ -362,8 +375,7 @@ The output of your script should look like this:
 
 The tiny example used can be obtained for validation purposes: http://www.bioinformatics.nl/courses/BIF-30806/docs/tiny.fq.  
 **Environment**.  
-- create a ```conda environment``` named ```bioinfm-env```.  
-- install the package ```fastx_toolkit``` and use the program ```fastq_quality_trimmer``` to ```trim``` sequences.  
+- use the ```conda environment``` you created ```python-bixcop21-env```.
 - Try it by typing ```fastq_quality_trimmer –h```.  
 - On the command line. You should see information on the usage and options.  
 
