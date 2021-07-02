@@ -14,7 +14,7 @@ Largely inspired by [Rosalind](http://rosalind.info/about/) problems.
 1. Download and Install ```anaconda``` installer from the [website](https://www.anaconda.com/products/individual).  
 2. Create a ```conda``` environment, and provide it with a simple name e.g ```python-bixcop21-env```.  
 
-    ```conda create -n python-bixcop21```
+    ```conda create -n python-bixcop21-env```
 3. Activate your newly created ```conda``` environment and Install the packages:
     * [biopython](https://biopython.org/)
     * [fastx_toolkit](http://hannonlab.cshl.edu/fastx_toolkit/)
