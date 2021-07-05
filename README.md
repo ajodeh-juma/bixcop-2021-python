@@ -16,6 +16,7 @@ Largely inspired by [Rosalind](http://rosalind.info/about/) problems.
 
     ```conda create -n python-bixcop21-env```
 3. Activate your newly created ```conda``` environment and Install the packages:
+    ```conda activate python-bixcop21-env```
     * [biopython](https://biopython.org/)
     * [fastx_toolkit](http://hannonlab.cshl.edu/fastx_toolkit/)
     
